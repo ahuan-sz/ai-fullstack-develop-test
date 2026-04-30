@@ -1,0 +1,7 @@
+.vscode/
+.git/
+.DS_Store
+.idea/
+out/
+target/
+node_modules/
