@@ -1,0 +1,28 @@
+Java 字符流演示文件
+这是一个用于测试 InputStreamReader 和 BufferedReader 的示例文件。
+
+字符流 vs 字节流：
+- 字符流专门用于处理文本数据
+- 字符流会自动处理字符编码（如 UTF-8）
+- 字符流可以正确读取中文等多字节字符
+
+常用字符流类：
+1. FileReader - 文件字符输入流
+2. FileWriter - 文件字符输出流
+3. BufferedReader - 带缓冲的字符输入流
+4. BufferedWriter - 带缓冲的字符输出流
+5. InputStreamReader - 字节流到字符流的桥接器
+6. OutputStreamWriter - 字符流到字节流的桥接器
+
+中文测试内容：
+春眠不觉晓，处处闻啼鸟。
+夜来风雨声，花落知多少。
+
+英文测试内容：
+The quick brown fox jumps over the lazy dog.
+
+数字和特殊字符：
+ABC abc 123 !@#$%
+你好世界 Hello World 2026
+
+文件结束标记
